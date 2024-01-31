@@ -38,6 +38,7 @@
 	"type": "module",
 	"dependencies": {
 		"@prisma/client": "^5.9.0",
+		"lucide-svelte": "^0.320.0",
 		"prettier-plugin-tailwindcss": "^0.5.11",
 		"sass": "^1.70.0"
 	}

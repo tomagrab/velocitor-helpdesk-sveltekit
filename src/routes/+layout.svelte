@@ -26,7 +26,7 @@
 <div class="flex min-h-screen">
 	<Sidebar {showSidebar} />
 	<div class="flex w-full flex-col">
-		<Navbar {toggleSidebar} />
+		<Navbar {toggleSidebar} {showSidebar} />
 		<div class="flex flex-1 bg-slate-200 p-4">
 			<div class="max-h-[calc(100vh-6rem)] flex-1 overflow-auto rounded bg-white p-2">
 				<slot />
